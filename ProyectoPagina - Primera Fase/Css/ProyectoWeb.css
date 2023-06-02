@@ -1,0 +1,83 @@
+body{
+    background-image: url(../Archivos/FONDO2.jpg);
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(67, 26, 73);
+}
+
+nav a{
+    font-family: Orbitron;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(253, 73, 220);
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(73, 34, 180);
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.links li:hover{
+    background-color: rgba(195, 232, 243, 0.95);
+    transition: 0.55s;
+    border-radius: 10px;
+}
+/*Hasta acá*/
+
+h1{
+    font-family: Orbitron;
+    text-shadow: rgb(253, 73, 220) 10px 5px 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: Orbitron;
+    color: #aecdd5;
+}
+
+p, a{
+    font-family: Orbitron;
+    color: rgb(222, 162, 224);
+}
+
+.int{
+    text-align: justify;
+    font-size: 20px;
+}
+
+input,textarea{
+    padding: 3px;
+    box-sizing: border-box;
+    border: 3px solid #62f490;
+}
+
+input:focus, textarea:focus{
+    border: 5px solid #04bef7a2;
+}
+
+form{
+    font-family: Orbitron;
+    font-size: 18px;
+    color: #aecdd5;
+}
+
+footer{
+    background: radial-gradient(#b1139c, #7a9fe4);
+    color: rgb(44, 49, 44);
+    text-align: center;
+    font-family: Playfair Display;
+}  
